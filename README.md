@@ -4,7 +4,8 @@ The subcellular localization of messenger RNAs (mRNAs) is a pivotal aspect of bi
 .<div align=center>![image](https://github.com/YangL-Coder/mRCat/assets/168099551/d80aa277-7d54-4bcd-9974-9cf91ae834f9s)
 
   
-Mus4mCPred uses the following dependencies:
+  
+  Mus4mCPred uses the following dependencies:
 python 3.9
 pytorch
 scikit-learn

@@ -11,7 +11,31 @@ matplotlib: 3.4.3<br>
 ## How to Use the Code in Jupyter (iPython) Notebooks:<br>
 1.Clone the Repository:<br>
   First, clone the repository to your local machine. Open your terminal or command prompt and run the following command:<br>
-  ```git clone https://github.com/YangL-Coder/mRCat.git<br>```
+  ```git clone https://github.com/YangL-Coder/mRCat.git```<br>
+2.Navigate to the Repository Directory:<br>
+  Change the directory to the cloned repository:<br>
+  ```cd mRCat```<br>
+3.Create a Virtual Environment:<br>
+  It is recommended to create a virtual environment to manage dependencies. You can create a virtual environment using venv:<br>
+ ```python3.9 -m venv venv```<br>
+4.Activate the Virtual Environment:<br>
+  On Windows:<br>
+  ```venv\Scripts\activate```<br>
+  On macOS and Linux:<br>
+  ```source venv/bin/activate```<br>
+5.Create a requirements.txt File:<br>
+  If a requirements.txt file is not already in the repository, create one with the following content:<br>
+  pandas==1.4.4<br>
+  sklearn==1.0.2<br>
+  numpy==1.21.5<br>
+  matplotlib==3.4.3<br>
+6.Install the Required Dependencies:<br>
+  Install the required dependencies using the requirements.txt file:<br>
+  ```pip install -r requirements.txt```<br>
+7.Open Jupyter Notebook:<br>
+  ```jupyter notebook```<br>
+8.Navigate and Open the Notebook:<br>
+  In the Jupyter Notebook interface, navigate to the directory where you cloned the repository. Open the notebook file (typically with a .ipynb extension) you want to work with.<br>
 ## Guiding principles:<br>
 1.The folder "data" contains the datasets used in this study, including Training and Testing Set.The mRNA_sublocation_TrainingSet_NC-BERTdata.csv file in the TrainingSet folder is the sequence training set features. The mRNA_sublocation_TestSet_NC-BERTdata.csv file in the TestSet folder is the sequence test set features. The remaining csv files are the process data files for constructing the training set and the test set.<br>
 2.The folder "result" contains the results produced by the experimental process in this study.<br>

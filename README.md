@@ -11,7 +11,7 @@ matplotlib: 3.4.3<br>
 ## How to Use the Code in Jupyter (iPython) Notebooks:<br>
 1.Clone the Repository:<br>
   First, clone the repository to your local machine. Open your terminal or command prompt and run the following command:<br>
-  git clone https://github.com/YangL-Coder/mRCat.git```
+  git clone https://github.com/YangL-Coder/mRCat.git``
 ## Guiding principles:<br>
 1.The folder "data" contains the datasets used in this study, including Training and Testing Set.The mRNA_sublocation_TrainingSet_NC-BERTdata.csv file in the TrainingSet folder is the sequence training set features. The mRNA_sublocation_TestSet_NC-BERTdata.csv file in the TestSet folder is the sequence test set features. The remaining csv files are the process data files for constructing the training set and the test set.<br>
 2.The folder "result" contains the results produced by the experimental process in this study.<br>

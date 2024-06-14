@@ -42,4 +42,4 @@ matplotlib: 3.4.3<br>
 3.IPYNB file, CV_violin_plots, DocProcess is the code for data preprocessing and visualization, mRNA_sublocation_TestSet_EIIP, mRNA_sublocation_TestSet-DNABERT, mRNA_sublocation_TrainingSet-DNABERT, mRNA_sublocation_TrainingSet_EIIP are the codes for feature extraction of sequences,and the remaining IPYNB files focus on training models by combining various features with different base classifiers.<br>
 4.When using mRNA_sublocation_TrainingSet_DNABERT_data.csv and mRNA_sublocation_TrainingSet_NC-BERTdata.csv, you need to extract the CSV files from the mRNA_sublocation_TrainingSet_DNABERT_data.zip and mRNA_sublocation_TrainingSet_NC-BERTdata.zip archives into the data/TrainingSet folder.<br>
 ## Note:<br>
-This code is for the article 'mRCat: a Novel CatBoost Predictor of mRNA Subcellular Localization by Fusing Large Language Model Representation and Sequence Features'.
+This code is for the article 'mRCat: a Novel CatBoost Predictor for Binary Classification of mRNA Subcellular Localization by Fusing Large Language Model Representation and Sequence Features'.
